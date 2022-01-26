@@ -1,0 +1,12 @@
+charset,UTF-8
+type,ghost
+name,れしばいぬ
+sakura.name,れしばいぬ
+kero.name,ご主人
+icon,icon.ico
+shiori,dnproxy.dll
+sstp.allowunspecifiedsend,0
+craftman,Don
+craftmanurl,http://nikolat.herokuapp.com/
+homeurl,https://raw.githubusercontent.com/nikolat/reshibainu/main/
+readme.charset,UTF-8

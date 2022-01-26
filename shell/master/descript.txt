@@ -1,0 +1,7 @@
+charset,UTF-8
+type,shell
+name,master
+readme.charset,UTF-8
+craftman,Benta Ito
+craftmanw,いとうべん太
+craftmanurl,

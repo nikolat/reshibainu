@@ -1,0 +1,15 @@
+charset,UTF-8
+version,1
+
+group,れしばいぬ
+{
+	scope,0
+
+	0,素
+}
+
+group,ご主人
+{
+	10,無し
+}
+
