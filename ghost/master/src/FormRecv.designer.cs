@@ -66,11 +66,11 @@
 			// menuStripMain
 			// 
 			this.menuStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItemFile,
-            this.ToolStripMenuItemEdit,
-            this.ToolStripMenuItemView,
-            this.ToolStripMenuItemConfig,
-            this.ToolStripMenuItemHelp});
+			this.ToolStripMenuItemFile,
+			this.ToolStripMenuItemEdit,
+			this.ToolStripMenuItemView,
+			this.ToolStripMenuItemConfig,
+			this.ToolStripMenuItemHelp});
 			this.menuStripMain.Location = new System.Drawing.Point(0, 0);
 			this.menuStripMain.Name = "menuStripMain";
 			this.menuStripMain.Size = new System.Drawing.Size(584, 26);
@@ -80,11 +80,11 @@
 			// ToolStripMenuItemFile
 			// 
 			this.ToolStripMenuItemFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItemOpen,
-            this.ToolStripMenuItemSep1,
-            this.ToolStripMenuItemSave,
-            this.ToolStripMenuItemSep2,
-            this.ToolStripMenuItemClose});
+			this.ToolStripMenuItemOpen,
+			this.ToolStripMenuItemSep1,
+			this.ToolStripMenuItemSave,
+			this.ToolStripMenuItemSep2,
+			this.ToolStripMenuItemClose});
 			this.ToolStripMenuItemFile.Name = "ToolStripMenuItemFile";
 			this.ToolStripMenuItemFile.Size = new System.Drawing.Size(85, 22);
 			this.ToolStripMenuItemFile.Text = "ファイル(&F)";
@@ -126,8 +126,8 @@
 			// ToolStripMenuItemEdit
 			// 
 			this.ToolStripMenuItemEdit.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItemClear,
-            this.ToolStripMenuItemUpdate});
+			this.ToolStripMenuItemClear,
+			this.ToolStripMenuItemUpdate});
 			this.ToolStripMenuItemEdit.Name = "ToolStripMenuItemEdit";
 			this.ToolStripMenuItemEdit.Size = new System.Drawing.Size(61, 22);
 			this.ToolStripMenuItemEdit.Text = "編集(&E)";
@@ -151,7 +151,7 @@
 			// ToolStripMenuItemView
 			// 
 			this.ToolStripMenuItemView.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItemShowDog});
+			this.ToolStripMenuItemShowDog});
 			this.ToolStripMenuItemView.Name = "ToolStripMenuItemView";
 			this.ToolStripMenuItemView.Size = new System.Drawing.Size(62, 22);
 			this.ToolStripMenuItemView.Text = "表示(&V)";
@@ -166,10 +166,10 @@
 			// ToolStripMenuItemConfig
 			// 
 			this.ToolStripMenuItemConfig.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItemPause,
-            this.ToolStripMenuItemRecieveCondition,
-            this.ToolStripMenuItemSep3,
-            this.ToolStripMenuItemTopMost});
+			this.ToolStripMenuItemPause,
+			this.ToolStripMenuItemRecieveCondition,
+			this.ToolStripMenuItemSep3,
+			this.ToolStripMenuItemTopMost});
 			this.ToolStripMenuItemConfig.Name = "ToolStripMenuItemConfig";
 			this.ToolStripMenuItemConfig.Size = new System.Drawing.Size(62, 22);
 			this.ToolStripMenuItemConfig.Text = "設定(&C)";
@@ -206,7 +206,7 @@
 			// ToolStripMenuItemHelp
 			// 
 			this.ToolStripMenuItemHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItemShowReadme});
+			this.ToolStripMenuItemShowReadme});
 			this.ToolStripMenuItemHelp.Name = "ToolStripMenuItemHelp";
 			this.ToolStripMenuItemHelp.Size = new System.Drawing.Size(75, 22);
 			this.ToolStripMenuItemHelp.Text = "ヘルプ(&H)";

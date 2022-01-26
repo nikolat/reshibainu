@@ -6,8 +6,8 @@ ghost/master/dnproxy.ini03ac1650ce7e08e9182e309177d18b3fsize=2158date=2013-09
 ghost/master/dnutil.dll4171584d497906b66bed9f8b1e1a1936size=32768date=2008-06-23T00:03:24
 ghost/master/icon.ico122952994412243c5f79002bb59772dfsize=3638date=2013-09-15T06:20:02
 ghost/master/src/DSSTP.csf0b7e2a679d51b10ce52fe945fb4736bsize=1150date=2022-01-26T11:22:20
-ghost/master/src/FormRecv.csbc0502e6806585b8af7c2ce9774c6755size=8128date=2013-09-15T06:20:02
-ghost/master/src/FormRecv.designer.cs2d435077e30444584f384e3441b8253bsize=13215date=2013-09-15T06:20:02
+ghost/master/src/FormRecv.cs3ebb79886d14c68503274dea88e8418fsize=8087date=2022-01-26T22:24:08
+ghost/master/src/FormRecv.designer.cs687e2c827b26f9d557a1ef6af0de2ce4size=13053date=2022-01-26T22:31:11
 ghost/master/src/Recv.csb7d3c1c738c80c7b9ac37f87311fd488size=8061date=2022-01-26T11:13:14
 ghost/master/src/Shiori.csfa76168be5fd53d0c608959a570d8c27size=13255date=2022-01-26T11:49:22
 install.txt80244faad3441137e682b0efe6e180d0size=71date=2022-01-26T11:54:08

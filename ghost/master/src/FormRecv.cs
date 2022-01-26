@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Text;
 using System.Windows.Forms;
 using System.IO;
@@ -124,16 +123,15 @@ namespace recv_net
 		}
 
 		// デリゲートの宣言(有効で無いスレッド間の操作用)
-		private delegate void D_DspMyTextBox(String inf);
+		private delegate void D_DspMyTextBox(string inf);
 
-		private void RecvObj_RecvInfoEvt(
-		System.Object sender, Recv.RecvInfEventArgs e)
+		private void RecvObj_RecvInfoEvt(object sender, Recv.RecvInfEventArgs e)
 		{
 			// TextBoxLogに里々のログを表示(有効で無いスレッド間の操作用)
 			TextBoxLog.Invoke(new D_DspMyTextBox(DspMyTextBox), e.RecvInf);
 		}
 
-		public void DspMyTextBox(String inf)
+		public void DspMyTextBox(string inf)
 		{
 			if (this.ToolStripMenuItemPause.Checked)
 			{
@@ -195,7 +193,7 @@ namespace recv_net
 		// 保存
 		private void ToolStripMenuItemSave_Click(object sender, EventArgs e)
 		{
-			String path = FormRecv.basedir + "recv.txt";
+			string path = FormRecv.basedir + "recv.txt";
 			StreamWriter sw = new StreamWriter(
 				path, false, Encoding.GetEncoding("shift_jis"));
 			sw.Write(TextBoxLog.Text);
