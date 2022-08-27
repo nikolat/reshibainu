@@ -7,6 +7,6 @@ icon,icon.ico
 shiori,dnproxy.dll
 sstp.allowunspecifiedsend,0
 craftman,Don
-craftmanurl,http://nikolat.herokuapp.com/
+craftmanurl,https://nikolat.github.io/
 homeurl,https://raw.githubusercontent.com/nikolat/reshibainu/main/
 readme.charset,UTF-8
