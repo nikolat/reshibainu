@@ -162,7 +162,7 @@ namespace Ukagaka.NET
 					break;
 				case "sakura.portalsites":
 					List<string[]> sakuraPortalsites = new List<string[]>();
-					sakuraPortalsites.Add(new string[] { "Disc-2", "http://disc2.s56.xrea.com/", "" });
+					sakuraPortalsites.Add(new string[] { "うかフィード", "https://feed.ukagaka.net/", "" });
 					foreach (string[] site in sakuraPortalsites)
 					{
 						value += string.Join("\x01", site) + "\x01\x02";
